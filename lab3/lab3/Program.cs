@@ -11,6 +11,8 @@ class Program
         Console.WriteLine("Введіть центральний кут у градусах: ");
         double centralAngle = Convert.ToDouble(Console.ReadLine());
 
+        
+
         // Переведення кута в радіани
         double centralAngleRadians = centralAngle * Math.PI / 180;
 
