@@ -5,10 +5,10 @@ class Program
     static void Main(string[] args)
     {
         // Введення радіусу та центрального кута у градусах
-        Console.WriteLine("Введіть радіус кола:");
+        Console.WriteLine("Введіть радіус кола: ");
         double radius = Convert.ToDouble(Console.ReadLine());
 
-        Console.WriteLine("Введіть центральний кут у градусах:");
+        Console.WriteLine("Введіть центральний кут у градусах: ");
         double centralAngle = Convert.ToDouble(Console.ReadLine());
 
         // Переведення кута в радіани
